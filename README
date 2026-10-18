@@ -1,0 +1,40 @@
+Monitor de Nível de Água 🌊
+
+Um script simples em Python para monitorar e exibir o status do nível de água no terminal utilizando respostas coloridas.
+
+🚀 Funcionalidades
+
+Exibição de níveis válidos de 1 a 5.
+Leitura do nível de água informado pelo usuário.
+Feedback visual colorido no terminal para cada status:
+
+1: Muito baixo (Crítico) - 🔴 Vermelho
+
+2: Baixo - 🟡 Amarelo
+
+3: Médio - 🟢 Verde
+
+4: Alto - 🔵 Ciano
+
+5: Muito alto (Alerta) - 🔵 Azul
+
+🛠️ Pré-requisitos
+
+O projeto utiliza a biblioteca colorama para estilizar a saída no terminal.
+Para instalá-la, execute:
+pip install colorama
+
+
+💻 Como Executar
+
+Execute o script principal:
+
+python main.py
+Digite um número de 1 a 5 quando solicitado para verificar o status correspondente.
+
+🛠️ Tecnologias utilizadas
+
+Python 🐍
+Colorama 🎨
+
+📚 Projeto acadêmico desenvolvido durante os estudos de Desenvolvimento de Sistemas.
